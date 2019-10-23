@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Animal:</strong>
+  <%= @infection.animal_id %>
+</p>
+
+<p>
+  <strong>Disease:</strong>
+  <%= @infection.disease_id %>
+</p>
+
+<p>
+  <strong>Infectiondate:</strong>
+  <%= @infection.infectionDate %>
+</p>
+
+<%= link_to 'Edit', edit_infection_path(@infection) %> |
+<%= link_to 'Back', infections_path %>
