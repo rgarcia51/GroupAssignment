@@ -23,7 +23,7 @@
 
   <div class="field">
     <%= form.label :owner_id %>
-    <%= form.collection_select :owner_id, Owner.all, :id, :name %>
+    <%= form.collection_select :owner_id, Owner.all, :id, :last %>
   </div>
 
   <div class="actions">

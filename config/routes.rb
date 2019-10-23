@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :disease_dates
   resources :diseases
   resources :animals
   resources :owners
