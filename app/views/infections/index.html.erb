@@ -15,8 +15,8 @@
   <tbody>
     <% @infections.each do |infection| %>
       <tr>
-        <td><%= infection.animal_id %></td>
-        <td><%= infection.disease_id %></td>
+        <td><%= infection.animal.name %></td>
+        <td><%= infection.disease.name %></td>
         <td><%= infection.infectionDate %></td>
         <td><%= link_to 'Show', infection %></td>
         <td><%= link_to 'Edit', edit_infection_path(infection) %></td>
